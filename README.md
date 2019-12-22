@@ -42,7 +42,7 @@ const int toneDurationMs = 150;   // Duracion del tono
 
 El parametro `toneFreqHz` es la frecuencia de audio del tono, expresada en Hz.
 
-La duracion de tono mas corto se define en la variable `toneDurationMs` y esta expresada en milisegundos.
+La duracion de tono mas corto se define en la variable `toneDurationMs` y esta expresada en milisegundos. Algo *importante* de este parametro es que cambiandolo tambien afecta al espacio entre tonos, caracteres y palabras.
 
 ### CW
 
@@ -68,7 +68,18 @@ El tiempo de espera en segundos, entre trasmision y transmision, puede ser cambi
 const int SLEEP_SEC = 60;
 ```
 
+### PIN de transmision
+
+El PIN de salida de audio esta defindo en:
+
+```c++
+const int OUT_PIN = 13;
+```
+
+En el Arduino UNO ese PIN es el mismo que se utiliza para el LED que trae incorporado, esto facilita hacer pruebas.
+
+
 ## Ayuda
 
-LU1AAT, Andres
-lu1aat.andres @ gmail.com
+- LU1AAT, Andres
+- lu1aat.andres @ gmail.com
