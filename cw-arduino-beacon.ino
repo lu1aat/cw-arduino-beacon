@@ -29,9 +29,9 @@ void toneSend(int pin, bool toneLong) {
 //
 // MORSE
 //
-const int cwToneSpacingMs = 100;      // Tiempo entre tonos (en milisengundos)
-const int cwSymbolSpacingMs = 400;    // Tiempo entre simbolos (en milisengundos)
-const int cwWordSpacingMs = 1000;     // Tiempo entre palabras (en milisengundos)
+const int cwToneSpacingMs = toneDurationMs;      // Tiempo entre tonos (en milisengundos)
+const int cwSymbolSpacingMs = cwToneSpacingMs * 3;    // Tiempo entre simbolos (en milisengundos)
+const int cwWordSpacingMs = cwToneSpacingMs * 7;     // Tiempo entre palabras (en milisengundos)
 
 // 0-9 group is ASCII 48-57 located fom 25 to 35
 // A-Z group is ASCII 65-90 located from 0 to 25
