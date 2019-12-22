@@ -158,5 +158,5 @@ void loop() {
   if(DEBUG) {
     Serial.println("------- SLEEP ---------");
   }
-  delay(SLEEP_SEC * 1000);
+  delay(SLEEP_SEC * 1000UL);
 }

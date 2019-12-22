@@ -46,13 +46,15 @@ La duracion de tono mas corto se define en la variable `toneDurationMs` y esta e
 
 ### CW
 
+Por defecto los intervalos y espacios de CW son relativos a la duracion del tono mas corto: El espacio entre tonos es igual al el ton mas corto. El espacio entre simbolos es tres veces el tono mas corto. El espacio entre palabras es 7 veces el tono mas corto.
+
 ```c++
-const int cwToneSpacingMs = 100;      // Tiempo entre tonos (en milisengundos)
-const int cwSymbolSpacingMs = 400;    // Tiempo entre simbolos (en milisengundos)
-const int cwWordSpacingMs = 1000;     // Tiempo entre palabras (en milisengundos)
+const int cwToneSpacingMs = toneDurationMs;          // Tiempo entre tonos (en milisengundos)
+const int cwSymbolSpacingMs = cwToneSpacingMs * 3;   // Tiempo entre simbolos (en milisengundos)
+const int cwWordSpacingMs = cwToneSpacingMs * 7;     // Tiempo entre palabras (en milisengundos)
 ```
 
-Los tres parametros de CW, siempre expresados en milisgundos, son:
+Siempre se expresan en milisgundos:
 
 * `cwToneSpacingMs`: Tiempo entre tonos.
 * `cwSymbolSpacingMs`: Tiempo entre caracteres.
