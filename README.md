@@ -10,7 +10,7 @@ Algunos usos muy poco aconsejables:
 
 * Conectada a un HT ("handie"):
 
-        <img src="https://github.com/lu1aat/cw-arduino-beacon/raw/master/ht-arduino-baofeng-888s.jpeg" width="256" height="256">
+    <img src="https://github.com/lu1aat/cw-arduino-beacon/raw/master/ht-arduino-baofeng-888s.jpeg" width="256" height="256">
 
 * Conectada a [modulo de RF en 433MHz para Arduino](https://naylampmechatronics.com/blog/32_comunicacion-inalambrica-con-modulos-de-rf-de.html) (si, un espanto):
 
