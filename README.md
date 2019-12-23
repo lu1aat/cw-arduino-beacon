@@ -6,6 +6,14 @@ Es un proyecto simple y basico para experimentar con Arduino en el ambito de la 
 
 Si es lo primero que haces con Arduino, antes tenes que leer un tutorial de Arduino https://www.arduino.cc/en/Guide/HomePage y hacer los ejercicios basicos (titilar, leer un boton, etc). 
 
+Algunos usos muy poco aconsejables:
+
+* Conectada a un HT ("handie"):
+    ![HT Baofeng 888-s directo sacando la baliza en FM](https://github.com/lu1aat/cw-arduino-beacon/raw/master/ht-arduino-baofeng-888s.jpeg)
+* Conectada a [modulo de RF en 433MHz para Arduino](https://naylampmechatronics.com/blog/32_comunicacion-inalambrica-con-modulos-de-rf-de.html) (si, un espanto):
+    ![Modulo RF 433MHz](https://github.com/lu1aat/cw-arduino-beacon/raw/master/rf433-arduino-module.jpeg)
+* Decodificado con fldigi parlante via microfono (video) https://twitter.com/LU1AAT/status/1208882654243966977
+
 
 ## Instrucciones
 
