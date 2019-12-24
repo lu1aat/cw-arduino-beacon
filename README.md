@@ -24,10 +24,11 @@ Algunos usos muy poco aconsejables:
 * Bajar este repositorio o el archivo `cw-arduino-beacon.ino`.
 * Abrir el archivo con la IDE de Arduino (https://www.arduino.cc/en/main/software).
 * Subir el programa al microcontrolador.
-* Conectar un parlante piezoelectrico al PIN 13 del arduino y a algun PIN de GND (tierra).
+* Conectar un parlante piezoelectrico al PIN 13 del arduino y a algun PIN de GND (tierra):
 
 La baliza deberia comenzar a transmitir inmediatamente y hacer pausas de un minuto entre transmisiones.
 
+[](://github.com/lu1aat/cw-arduino-beacon/raw/master/diagram-connections.png)
 
 ## Configurando la baliza
 
