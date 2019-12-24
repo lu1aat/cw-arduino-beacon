@@ -6,6 +6,18 @@ Es un proyecto simple y basico para experimentar con Arduino en el ambito de la 
 
 Si es lo primero que haces con Arduino, antes tenes que leer un tutorial de Arduino https://www.arduino.cc/en/Guide/HomePage y hacer los ejercicios basicos (titilar, leer un boton, etc). 
 
+
+## Instrucciones
+
+* Bajar este repositorio o el archivo `cw-arduino-beacon.ino`.
+* Abrir el archivo con la IDE de Arduino (https://www.arduino.cc/en/main/software).
+* Subir el programa al microcontrolador.
+* Conectar un parlante piezoelectrico al PIN 13 del arduino y a algun PIN de GND (tierra):
+
+La baliza deberia comenzar a transmitir inmediatamente y hacer pausas de un minuto entre transmisiones.
+
+[hardware-connections](http://github.com/lu1aat/cw-arduino-beacon/raw/master/diagram-connections.png)
+
 Algunos usos muy poco aconsejables:
 
 * Conectada a un HT ("handie"):
@@ -17,18 +29,6 @@ Algunos usos muy poco aconsejables:
     <img src="https://github.com/lu1aat/cw-arduino-beacon/raw/master/rf433-arduino-module.jpeg" width="256" height="256">
 
 * Decodificado con fldigi parlante via microfono (video) https://twitter.com/LU1AAT/status/1208882654243966977
-
-
-## Instrucciones
-
-* Bajar este repositorio o el archivo `cw-arduino-beacon.ino`.
-* Abrir el archivo con la IDE de Arduino (https://www.arduino.cc/en/main/software).
-* Subir el programa al microcontrolador.
-* Conectar un parlante piezoelectrico al PIN 13 del arduino y a algun PIN de GND (tierra):
-
-La baliza deberia comenzar a transmitir inmediatamente y hacer pausas de un minuto entre transmisiones.
-
-[](://github.com/lu1aat/cw-arduino-beacon/raw/master/diagram-connections.png)
 
 ## Configurando la baliza
 
