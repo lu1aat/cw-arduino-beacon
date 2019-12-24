@@ -16,7 +16,7 @@ Si es lo primero que haces con Arduino, antes tenes que leer un tutorial de Ardu
 
 La baliza deberia comenzar a transmitir inmediatamente y hacer pausas de un minuto entre transmisiones.
 
-<img src="http://github.com/lu1aat/cw-arduino-beacon/raw/master/diagram-connections.png">
+<img src="https://github.com/lu1aat/cw-arduino-beacon/raw/master/diagram-connections.png">
 
 Algunos usos muy poco aconsejables:
 
